@@ -30,7 +30,7 @@ body {
   color: #121212;
   overflow-x: hidden; }
 
-* {
+* ti {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
@@ -186,6 +186,7 @@ p {
       height: 100%;
       border-style: solid;
       /* Spinner Color */
+	  gradient
       border-color: #38f9d7 #38f9d7 #cbced1;
       border-radius: 50%;
       border-width: 6px; }
@@ -441,23 +442,23 @@ p {
 .rounded-buttons .main-btn {
   border-radius: 50px; }
 .rounded-buttons .rounded-one {
-  border-color: #38f9d7;
-  color: #38f9d7; }
+  border-color: #097e1f;
+  color: #097e1f; }
   .rounded-buttons .rounded-one:hover {
     background-color: rgba(56, 249, 215, 0.4); }
 .rounded-buttons .rounded-two {
   color: #fff;
-  background-color: #38f9d7;
-  border-color: #38f9d7; }
+  background-color: #097e1f;
+  border-color: #097e1f; }
   .rounded-buttons .rounded-two:hover {
     background-color: rgba(56, 249, 215, 0.4);
     border-color: rgba(56, 249, 215, 0.4); }
 .rounded-buttons .rounded-three {
   overflow: hidden;
   line-height: 52px;
-  background: -webkit-linear-gradient(left, #43cae9 0%, #38f9d7 50%, #43cae9 100%);
-  background: -o-linear-gradient(left, #43cae9 0%, #38f9d7 50%, #43cae9 100%);
-  background: linear-gradient(to right, #43cae9 0%, #38f9d7 50%, #43cae9 100%);
+  background: -webkit-linear-gradient(left, #58e482 0%, #097e1f 50%, #58e482 100%);
+  background: -o-linear-gradient(left, #58e482 0%, #097e1f 50%, #58e482 100%);
+  background: linear-gradient(to right, #58e482 0%, #097e1f 50%, #58e482 100%);
   background-size: 200% auto;
   color: #fff;
   border: 0;
@@ -475,7 +476,7 @@ p {
   .rounded-buttons .rounded-three:hover {
     background-position: right center; }
 .rounded-buttons .rounded-four {
-  border-color: #38f9d7;
+  border-color: #097e1f;
   padding-left: 60px; }
   @media (max-width: 767px) {
     .rounded-buttons .rounded-four {
@@ -496,7 +497,7 @@ p {
         left: 15px; } }
   .rounded-buttons .rounded-four:hover {
     color: #fff;
-    background-color: #38f9d7; }
+    background-color: #097e1f; }
     .rounded-buttons .rounded-four:hover i {
       -webkit-animation: iconTranslateY 0.5s forwards;
       -moz-animation: iconTranslateY 0.5s forwards;
@@ -504,8 +505,8 @@ p {
       animation: iconTranslateY 0.5s forwards; }
 .rounded-buttons .rounded-five {
   color: #fff;
-  background-color: #38f9d7;
-  border-color: #38f9d7;
+  background-color: #097e1f;
+  border-color: #097e1f;
   padding-left: 60px; }
   @media (max-width: 767px) {
     .rounded-buttons .rounded-five {
@@ -525,7 +526,7 @@ p {
       .rounded-buttons .rounded-five span {
         left: 15px; } }
   .rounded-buttons .rounded-five:hover {
-    color: #38f9d7;
+    color: #097e1f;
     background-color: transparent; }
     .rounded-buttons .rounded-five:hover i {
       -webkit-animation: iconTranslateY 0.5s forwards;
@@ -536,9 +537,9 @@ p {
   padding-right: 60px;
   overflow: hidden;
   line-height: 52px;
-  background: -webkit-linear-gradient(left, #43cae9 0%, #38f9d7 50%, #43cae9 100%);
-  background: -o-linear-gradient(left, #43cae9 0%, #38f9d7 50%, #43cae9 100%);
-  background: linear-gradient(to right, #43cae9 0%, #38f9d7 50%, #43cae9 100%);
+  background: -webkit-linear-gradient(left, #58e482 0%, #097e1f 50%, #58e482 100%);
+  background: -o-linear-gradient(left, #58e482 0%, #097e1f 50%, #58e482 100%);
+  background: linear-gradient(to right, #58e482 0%, #097e1f 50%, #58e482 100%);
   background-size: 200% auto;
   color: #fff;
   border: 0; }
@@ -599,10 +600,11 @@ p {
        3.HEADER css 
 ===========================*/
 /*===== NAVBAR EIGHT =====*/
+
+/*CORES DA BARRA DE MENU*/
+
 .navbar-area {
-  background: -webkit-linear-gradient(left, #43cae9 0%, #38f9d7 100%);
-  background: -o-linear-gradient(left, #43cae9 0%, #38f9d7 100%);
-  background: linear-gradient(to right, #43cae9 0%, #38f9d7 100%);
+  background: #097e1f;
   padding: 10px 0;
   position: absolute;
   top: 0;
@@ -614,6 +616,8 @@ p {
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s; }
+  
+  
   .navbar-area .navbar-brand img {
     max-width: 150px; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -628,7 +632,7 @@ p {
     .navbar-area .navbar .navbar-toggler .toggler-icon {
       width: 30px;
       height: 2px;
-      background-color: #121212;
+      background-color: #f4f6f7;
       margin: 5px 0;
       display: block;
       position: relative;
@@ -656,10 +660,10 @@ p {
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .navbar-area .navbar .navbar-collapse {
         position: absolute;
-        top: 108%;
+        top: 106%;
         left: 0;
         width: 100%;
-        background-color: #f4f6f7;
+        background-color: #097e1f;
         z-index: 8;
         padding: 10px 16px;
         -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
@@ -668,15 +672,18 @@ p {
     @media (max-width: 767px) {
       .navbar-area .navbar .navbar-collapse {
         position: absolute;
-        top: 108%;
+        top: 106%;
         left: 0;
         width: 100%;
-        background-color: #f4f6f7;
+        background-color: #097e1f;
         z-index: 8;
         padding: 10px 16px;
         -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
         -moz-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
         box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16); } }
+		
+		/*FINAL DAS CORES DA BARRA DE MENU*/
+		
     .navbar-area .navbar .navbar-nav {
       margin-right: 24px; }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1660,17 +1667,17 @@ p {
       color: #fff; }
 
 /*===========================
-      16.PRICING css 
+      16.tads css 
 ===========================*/
-.pricing-area {
+.tads-area {
   background-color: #f4f6f7;
   padding-top: 90px;
   padding-bottom: 100px; }
 
-.pricing-2 {
+.tads-2 {
   background-color: #fff; }
 
-.pricing-style-one {
+.tads-style-one {
   -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
   -moz-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
@@ -1679,58 +1686,58 @@ p {
   position: relative;
   overflow: hidden;
   background-color: #fff; }
-  .pricing-style-one .pricing-icon img {
+  .tads-style-one .tads-icon img {
     width: 200px; }
-  .pricing-style-one .pricing-header .sub-title {
+  .tads-style-one .tads-header .sub-title {
     font-size: 20px;
     font-weight: 600;
     line-height: 25px;
     color: #121212;
     position: relative;
     margin-top: 24px; }
-  .pricing-style-one .pricing-header .month {
+  .tads-style-one .tads-header .month {
     font-size: 20px;
     font-weight: 300;
     line-height: 25px;
     color: #6c6c6c;
     margin-top: 3px; }
-    .pricing-style-one .pricing-header .month .price {
+    .tads-style-one .tads-header .month .price {
       font-size: 36px;
       font-weight: 600;
       line-height: 45px;
       color: #121212;
       margin-top: 8px; }
       @media only screen and (min-width: 576px) and (max-width: 767px) {
-        .pricing-style-one .pricing-header .month .price {
+        .tads-style-one .tads-header .month .price {
           font-size: 24px;
           margin-top: 32px;
           line-height: 30px; } }
-  .pricing-style-one .pricing-list {
+  .tads-style-one .tads-list {
     margin-top: 24px; }
-    .pricing-style-one .pricing-list ul li {
+    .tads-style-one .tads-list ul li {
       font-size: 16px;
       line-height: 24px;
       color: #121212;
       margin-top: 16px; }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
-        .pricing-style-one .pricing-list ul li {
+        .tads-style-one .tads-list ul li {
           font-size: 14px;
           margin-top: 12px; } }
       @media (max-width: 767px) {
-        .pricing-style-one .pricing-list ul li {
+        .tads-style-one .tads-list ul li {
           font-size: 14px;
           margin-top: 12px; } }
       @media only screen and (min-width: 576px) and (max-width: 767px) {
-        .pricing-style-one .pricing-list ul li {
+        .tads-style-one .tads-list ul li {
           font-size: 16px;
           margin-top: 16px; } }
-      .pricing-style-one .pricing-list ul li i {
+      .tads-style-one .tads-list ul li i {
         color: #38f9d7;
         margin-right: 8px; }
-  .pricing-style-one .pricing-btn {
+  .tads-style-one .tads-btn {
     margin-top: 31px; }
 
-.pricing-style-two {
+.tads-style-two {
   -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
   -moz-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
@@ -1739,62 +1746,200 @@ p {
   position: relative;
   overflow: hidden;
   background-color: #fff; }
-  .pricing-style-two .pricing-icon img {
+  .tads-style-two .tads-icon img {
     width: 112px; }
-  .pricing-style-two .pricing-header {
+  .tads-style-two .tads-header {
     margin-top: 24px; }
-    .pricing-style-two .pricing-header .sub-title {
+    .tads-style-two .tads-header .sub-title {
       font-size: 20px;
       font-weight: 600;
       line-height: 25px;
       color: #121212; }
-    .pricing-style-two .pricing-header .price {
+    .tads-style-two .tads-header .price {
       display: block;
       font-size: 64px;
       font-weight: 600;
       line-height: 80px;
       color: #121212; }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
-        .pricing-style-two .pricing-header .price {
+        .tads-style-two .tads-header .price {
           font-size: 50px;
           margin-top: 16px; } }
       @media (max-width: 767px) {
-        .pricing-style-two .pricing-header .price {
+        .tads-style-two .tads-header .price {
           font-size: 50px;
           margin-top: 16px; } }
       @media only screen and (min-width: 576px) and (max-width: 767px) {
-        .pricing-style-two .pricing-header .price {
+        .tads-style-two .tads-header .price {
           font-size: 64px;
           margin-top: 32px; } }
-    .pricing-style-two .pricing-header .year {
+    .tads-style-two .tads-header .year {
       font-size: 20px;
       font-weight: 500;
       line-height: 25px;
       color: #6c6c6c;
       margin-top: -10px; }
-  .pricing-style-two .pricing-list {
+  .tads-style-two .tads-list {
     margin-top: 33px; }
-    .pricing-style-two .pricing-list ul li {
+    .tads-style-two .tads-list ul li {
       font-size: 16px;
       line-height: 24px;
       color: #121212;
       margin-top: 16px; }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
-        .pricing-style-two .pricing-list ul li {
+        .tads-style-two .tads-list ul li {
           font-size: 14px;
           margin-top: 12px; } }
       @media (max-width: 767px) {
-        .pricing-style-two .pricing-list ul li {
+        .tads-style-two .tads-list ul li {
           font-size: 14px;
           margin-top: 12px; } }
       @media only screen and (min-width: 576px) and (max-width: 767px) {
-        .pricing-style-two .pricing-list ul li {
+        .tads-style-two .tads-list ul li {
           font-size: 16px;
           margin-top: 16px; } }
-      .pricing-style-two .pricing-list ul li i {
+      .tads-style-two .tads-list ul li i {
         color: #38f9d7;
         margin-right: 8px; }
-  .pricing-style-two .pricing-btn {
+  .tads-style-two .tads-btn {
+    margin-top: 26px; }
+	
+/*===========================
+      17.grupo css 
+===========================*/
+.grupo-area {
+  background-color: #f4f6f7;
+  padding-top: 90px;
+  padding-bottom: 100px; }
+
+.grupo-2 {
+  background-color: #fff; }
+
+.grupo-style-one {
+  -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  -moz-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  padding: 24px 20px 38px;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+  background-color: #fff; }
+  .grupo-style-one .grupo-icon img {
+    width: 200px; }
+  .grupo-style-one .grupo-header .sub-title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    color: #121212;
+    position: relative;
+    margin-top: 24px; }
+  .grupo-style-one .grupo-header .month {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 25px;
+    color: #6c6c6c;
+    margin-top: 3px; }
+    .grupo-style-one .grupo-header .month .price {
+      font-size: 36px;
+      font-weight: 600;
+      line-height: 45px;
+      color: #121212;
+      margin-top: 8px; }
+      @media only screen and (min-width: 576px) and (max-width: 767px) {
+        .grupo-style-one .grupo-header .month .price {
+          font-size: 24px;
+          margin-top: 32px;
+          line-height: 30px; } }
+  .grupo-style-one .grupo-list {
+    margin-top: 24px; }
+    .grupo-style-one .grupo-list ul li {
+      font-size: 16px;
+      line-height: 24px;
+      color: #121212;
+      margin-top: 16px; }
+      @media only screen and (min-width: 992px) and (max-width: 1199px) {
+        .grupo-style-one .grupo-list ul li {
+          font-size: 14px;
+          margin-top: 12px; } }
+      @media (max-width: 767px) {
+        .grupo-style-one .grupo-list ul li {
+          font-size: 14px;
+          margin-top: 12px; } }
+      @media only screen and (min-width: 576px) and (max-width: 767px) {
+        .grupo-style-one .grupo-list ul li {
+          font-size: 16px;
+          margin-top: 16px; } }
+      .grupo-style-one .grupo-list ul li i {
+        color: #38f9d7;
+        margin-right: 8px; }
+  .grupo-style-one .grupo-btn {
+    margin-top: 31px; }
+
+.grupo-style-two {
+  -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  -moz-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  padding: 24px 20px;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+  background-color: #fff; }
+  .grupo-style-two .grupo-icon img {
+    width: 112px; }
+  .grupo-style-two .grupo-header {
+    margin-top: 24px; }
+    .grupo-style-two .grupo-header .sub-title {
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 25px;
+      color: #121212; }
+    .grupo-style-two .grupo-header .price {
+      display: block;
+      font-size: 64px;
+      font-weight: 600;
+      line-height: 80px;
+      color: #121212; }
+      @media only screen and (min-width: 992px) and (max-width: 1199px) {
+        .grupo-style-two .grupo-header .price {
+          font-size: 50px;
+          margin-top: 16px; } }
+      @media (max-width: 767px) {
+        .grupo-style-two .grupo-header .price {
+          font-size: 50px;
+          margin-top: 16px; } }
+      @media only screen and (min-width: 576px) and (max-width: 767px) {
+        .grupo-style-two .grupo-header .price {
+          font-size: 64px;
+          margin-top: 32px; } }
+    .grupo-style-two .grupo-header .year {
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 25px;
+      color: #6c6c6c;
+      margin-top: -10px; }
+  .grupo-style-two .grupo-list {
+    margin-top: 33px; }
+    .grupo-style-two .grupo-list ul li {
+      font-size: 16px;
+      line-height: 24px;
+      color: #121212;
+      margin-top: 16px; }
+      @media only screen and (min-width: 992px) and (max-width: 1199px) {
+        .grupo-style-two .grupo-list ul li {
+          font-size: 14px;
+          margin-top: 12px; } }
+      @media (max-width: 767px) {
+        .grupo-style-two .grupo-list ul li {
+          font-size: 14px;
+          margin-top: 12px; } }
+      @media only screen and (min-width: 576px) and (max-width: 767px) {
+        .grupo-style-two .grupo-list ul li {
+          font-size: 16px;
+          margin-top: 16px; } }
+      .grupo-style-two .grupo-list ul li i {
+        color: #38f9d7;
+        margin-right: 8px; }
+  .grupo-style-two .grupo-btn {
     margin-top: 26px; }
 
 /*===========================
@@ -2076,9 +2221,9 @@ p {
     margin-top: 29px; }
 
 /*===========================
-      20.CONTACT css 
+      20.professores css 
 ===========================*/
-.contact-area {
+.professores-area {
   padding-top: 95px;
   padding-bottom: 100px;
   background-color: #f4f6f7; }
@@ -2092,58 +2237,58 @@ p {
 .form-message.error {
   color: #fc3832; }
 
-.single-contact-box {
+.single-professores-box {
   background-color: #fff;
   border-radius: 8px;
   padding: 24px 35px;
   height: 255px; }
   @media (max-width: 767px) {
-    .single-contact-box {
+    .single-professores-box {
       padding: 24px 20px; } }
-  .single-contact-box .box-icon {
+  .single-professores-box .box-icon {
     position: relative;
     display: inline-block; }
-    .single-contact-box .box-icon i {
+    .single-professores-box .box-icon i {
       font-size: 88px;
       position: relative;
       z-index: 5;
       color: #38f9d7; }
-    .single-contact-box .box-icon .shape {
+    .single-professores-box .box-icon .shape {
       position: absolute;
       top: 0;
       left: 0; }
-  .single-contact-box .box-content {
+  .single-professores-box .box-content {
     margin-top: 24px; }
-    .single-contact-box .box-content .box-title {
+    .single-professores-box .box-content .box-title {
       font-size: 28px;
       line-height: 35px;
       color: #121212; }
-    .single-contact-box .box-content .text {
+    .single-professores-box .box-content .text {
       font-size: 14px;
       line-height: 20px;
       color: #121212;
       margin-top: 16px; }
 
-.contact-two .contact-title {
+.professores-two .professores-title {
   font-size: 24px;
   font-weight: 600;
   color: #121212; }
-.contact-two .text {
+.professores-two .text {
   font-size: 16px;
   line-height: 24px;
   margin-top: 16px;
   color: #6c6c6c; }
-.contact-two .contact-info {
+.professores-two .professores-info {
   margin-top: 40px; }
-  .contact-two .contact-info li {
+  .professores-two .professores-info li {
     color: #6c6c6c;
     margin-top: 8px;
     font-size: 16px; }
-    .contact-two .contact-info li i {
+    .professores-two .professores-info li i {
       margin-right: 5px;
       color: #121212; }
 
-.contact-map .gmap_canvas iframe {
+.professores-map .gmap_canvas iframe {
   width: 100%;
   height: 400px; }
 
@@ -2287,5 +2432,16 @@ p {
   .back-to-top:hover {
     color: #121212;
     background-color: #38f9d7; }
+	
+ /* team */
+  .card-title {
+    font-size: 18px;
+	
+  }
+
+  .card-text {
+    font-size: 15px;
+  }
 
 /*# sourceMappingURL=style.css.map */
+
