@@ -1103,7 +1103,7 @@ p {
 .slider-area {
   padding-top: 94px; }
   .slider-area .bd-example .carousel .carousel-inner {
-    background-color: #38f9d7; }
+    background-color: #0c4caa; }
     .slider-area .bd-example .carousel .carousel-inner .carousel-item {
       height: 700px; }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -1295,7 +1295,7 @@ p {
             -webkit-box-shadow: 0 3px 25px 0 rgba(0, 0, 0, 0.16);
             -moz-box-shadow: 0 3px 25px 0 rgba(0, 0, 0, 0.16);
             box-shadow: 0 3px 25px 0 rgba(0, 0, 0, 0.16);
-            color: #38f9d7; }
+            color: #0c4caa; }
   .header-hero .header-shape {
     position: absolute;
     bottom: 0;
@@ -1598,20 +1598,24 @@ p {
         font-size: 20px; } }
     @media (max-width: 767px) {
       .single-portfolio .portfolio-text .portfolio-title a {
-        font-size: 20px; } }
-    .single-portfolio .portfolio-text .portfolio-title a:hover {
-      color: #38f9d7; }
-  .single-portfolio .portfolio-text .text {
-    color: #121212;
-    font-size: 14px;
-    line-height: 20px;
-    margin-top: 8px; }
+
+        font-size: 20px; } } }
+  
 .single-portfolio:hover .portfolio-overlay {
   opacity: 1;
   visibility: visible; }
 
 .portfolio-2 {
   background-color: #f4f6f7; }
+  
+.portfolio-area .section-title .text {
+	text-align: justify;
+	text-indent: 30px;
+	width: 100%;
+	color: #121212;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 8px; }
 
 /*===========================
        25.SERVICES css 
@@ -1804,6 +1808,14 @@ p {
   .tads-style-two .tads-btn {
     margin-top: 26px; }
 	
+.tads-area .section-title .text {
+	text-align: justify;
+	text-indent: 30px;
+	width: 100%;
+	color: #121212;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 8px; }
 /*===========================
       17.grupo css 
 ===========================*/
@@ -1941,6 +1953,14 @@ p {
         margin-right: 8px; }
   .grupo-style-two .grupo-btn {
     margin-top: 26px; }
+.grupo-area .section-title .text {
+	text-align: justify;
+	text-indent: 30px;
+	width: 100%;
+	color: #121212;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 8px; }
 
 /*===========================
         25.ERROR css 
@@ -2055,7 +2075,7 @@ p {
         28.ERROR css 
 ===========================*/
 .testimonial-area {
-  padding-top: 100px;
+  padding-top: 100px; @media
   padding-bottom: 70px;
   background-color: #f4f6f7; }
 
@@ -2091,8 +2111,8 @@ p {
       color: #a4a4a4; }
 
 .testimonial-active-2 .slick-dots,
-.testimonial-active .slick-dots {
-  text-align: center; }
+.testimonial-active .slick-dots{
+	text-align: center;}
   .testimonial-active-2 .slick-dots li,
   .testimonial-active .slick-dots li {
     display: inline-block;
@@ -2108,7 +2128,7 @@ p {
       cursor: pointer; }
     .testimonial-active-2 .slick-dots li.slick-active button,
     .testimonial-active .slick-dots li.slick-active button {
-      background-color: #38f9d7; }
+      background-color: #0c4caa; }
 
 .single-testimonial-4 {
   border: 2px solid #cbced1;
@@ -2159,7 +2179,7 @@ p {
       border: 0;
       cursor: pointer; }
     .testimonial-active-4 .slick-dots li.slick-active button {
-      background-color: #38f9d7; }
+      background-color: #0c4caa; }
 
 /*===========================
        25.CLIENT css 
@@ -2373,7 +2393,7 @@ p {
         -o-transition: all 0.3s ease-out 0s;
         transition: all 0.3s ease-out 0s; }
         .footer-area .footer-widget .footer-link ul li a:hover {
-          color: #38f9d7; }
+          color: #0c4caa; }
 .footer-area .footer-copyright {
   padding-top: 13px;
   padding-bottom: 23px; }
@@ -2393,7 +2413,7 @@ p {
       -o-transition: all 0.3s ease-out 0s;
       transition: all 0.3s ease-out 0s; }
       .footer-area .footer-copyright .social li a:hover {
-        color: #38f9d7; }
+        color: #0c4caa; }
 .footer-area.footer-dark {
   background-color: #121212; }
   .footer-area.footer-dark .footer-widget .footer-title {
@@ -2401,13 +2421,13 @@ p {
   .footer-area.footer-dark .footer-widget .footer-link ul li a {
     color: #fff; }
     .footer-area.footer-dark .footer-widget .footer-link ul li a:hover {
-      color: #38f9d7; }
+      color: #0c4caa; }
   .footer-area.footer-dark .footer-copyright .copyright .text {
     color: #fff; }
   .footer-area.footer-dark .footer-copyright .social li a {
     color: #fff; }
     .footer-area.footer-dark .footer-copyright .social li a:hover {
-      color: #38f9d7; }
+      color: #0c4caa; }
 
 /*===== BACK TO TOP =====*/
 .back-to-top {
@@ -2420,7 +2440,7 @@ p {
   height: 45px;
   line-height: 45px;
   border-radius: 50%;
-  background-color: #38f9d7;
+  background-color: #0c4caa;
   text-align: center;
   z-index: 99;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -2431,17 +2451,291 @@ p {
   display: none; }
   .back-to-top:hover {
     color: #121212;
-    background-color: #38f9d7; }
+    background-color: #0c4caa; }
 	
  /* team */
-  .card-title {
-    font-size: 18px;
-	
-  }
+ 
 
-  .card-text {
-    font-size: 15px;
-  }
+
+	.professores-area {
+		padding-top: 100px;
+	}
+	.equipe-area {
+		padding-top: 100px;
+	}
+	.container .row{
+		display: flex;
+	}
+	.slider{
+		max-width: 1150px;
+		display: flex;
+	}
+	.slider .card{
+		background: #FFF;
+		flex: 1;
+		margin: 0 10px;
+	}
+	.slider .card .img{
+		max-width: 200px;
+		max-height: 150px;
+		width: auto;
+		height: auto;
+
+	}
+	.slider .card .img img{
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+	}
+	.card-title {
+		color: #121212;
+		font-size: 16px;
+	}
+	.card-text {
+		font-size: 14px;
+	}
+	.card p{
+		margin: 10px 0;
+	}
+	
+
+	
+	
+/*====inicio projeto 1=====*/
+	.proje1-area {
+  position: relative;
+  background-color: #f4f6f7;
+  padding-top: 100px;
+  padding-bottom: 100px; }
+  .proje1-area .section-title .title {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 55px;
+    color: #121212; }
+    @media (max-width: 767px) {
+      .proje1-area .section-title .title {
+        font-size: 22px;
+        line-height: 32px; } }
+    @media only screen and (min-width: 576px) and (max-width: 767px) {
+      .proje1-area .section-title .title {
+        font-size: 28px;
+        line-height: 38px; } }
+  .proje1-area .section-title .text {
+	text-align: justify;
+	text-indent: 30px;
+	width: 100%;
+    font-size: 20px;
+    line-height: 25px;
+    color: #121212;
+    margin-top: 8px; }
+    @media (max-width: 767px) {
+      .proje1-area .section-title .text {
+        font-size: 16px; } }
+	
+
+.single-proje1 .proje1-icon img {
+  width: 120px; }
+  @media (max-width: 767px) {
+    .single-proje1 .proje1-icon img {
+      width: 100px; } }
+.single-proje1 .proje1-content {
+  padding-left: 30px; }
+  @media (max-width: 767px) {
+    .single-proje1 .proje1-content {
+      padding-left: 0;
+      padding-top: 30px; } }
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .single-proje1 .proje1-content {
+      padding-left: 30px;
+      padding-top: 0; } }
+  .single-proje1 .proje1-content .proje1-title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    color: #121212; }
+  .single-proje1 .proje1-content .text {
+    font-size: 16px;
+    color: #121212;
+    margin-top: 16px; }
+	
+/*====final projeto 1====*/
+	
+	
+/*====inicio projeto 2====*/
+	.proje2-area {
+  position: relative;
+  background-color: #f4f6f7;
+  padding-top: 100px;
+  padding-bottom: 100px; }
+  .proje2-area .section-title .title {
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 55px;
+    color: #121212; }
+    @media (max-width: 767px) {
+      .proje2-area .section-title .title {
+        font-size: 22px;
+        line-height: 32px; } }
+    @media only screen and (min-width: 576px) and (max-width: 767px) {
+      .proje2-area .section-title .title {
+        font-size: 28px;
+        line-height: 38px; } }
+  .proje2-area .section-title .text {
+	text-align: justify;
+	text-indent: 30px;
+	width: 100%;
+    font-size: 20px;
+    line-height: 25px;
+    color: #121212;
+    margin-top: 8px; }
+    @media (max-width: 767px) {
+      .proje2-area .section-title .text {
+        font-size: 16px; } }
+
+.single-proje2 .proje2-icon img {
+  width: 120px; }
+  @media (max-width: 767px) {
+    .single-proje2 .proje2-icon img {
+      width: 100px; } }
+.single-proje2 .proje2-content {
+  padding-left: 30px; }
+  @media (max-width: 767px) {
+    .single-proje2 .proje2-content {
+      padding-left: 0;
+      padding-top: 30px; } }
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .single-proje2 .proje2-content {
+      padding-left: 30px;
+      padding-top: 0; } }
+  .single-proje2 .proje2-content .proje2-title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    color: #121212; }
+  .single-proje2 .proje2-content .text {
+    font-size: 16px;
+    color: #121212;
+    margin-top: 16px; }
+/*====final projeto 2====*/
+	
+/*====inicio projeto 3===*/
+	.proje3-area {
+  position: relative;
+  background-color: #f4f6f7;
+  padding-top: 100px;
+  padding-bottom: 100px; }
+  .proje3-area .section-title .title {
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 55px;
+    color: #121212; }
+    @media (max-width: 767px) {
+      .proje3-area .section-title .title {
+        font-size: 22px;
+        line-height: 32px; } }
+    @media only screen and (min-width: 576px) and (max-width: 767px) {
+      .proje3-area .section-title .title {
+        font-size: 28px;
+        line-height: 38px; } }
+  .proje3-area .section-title .text {
+	text-align: justify;
+	text-indent: 30px;
+	width: 100%;
+    font-size: 20px;
+    line-height: 25px;
+    color: #121212;
+    margin-top: 8px; }
+    @media (max-width: 767px) {
+      .proje3-area .section-title .text {
+        font-size: 16px; } }
+
+.single-proje3 .proje3-icon img {
+  width: 120px; }
+  @media (max-width: 767px) {
+    .single-proje3 .proje3-icon img {
+      width: 100px; } }
+.single-proje3 .proje3-content {
+  padding-left: 30px; }
+  @media (max-width: 767px) {
+    .single-proje3 .proje3-content {
+      padding-left: 0;
+      padding-top: 30px; } }
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .single-proje3 .proje3-content {
+      padding-left: 30px;
+      padding-top: 0; } }
+  .single-proje3 .proje3-content .proje3-title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    color: #121212; }
+  .single-proje3 .proje3-content .text {
+    font-size: 16px;
+    color: #121212;
+    margin-top: 16px; }
+	 div.box{
+		width: 350px;
+		display: inline-block;
+	}
+/*====final projeto 3====*/
+	
+/*====inicio projeto 4====*/
+	.proje4-area {
+  position: relative;
+  background-color: #f4f6f7;
+  padding-top: 100px;
+  padding-bottom: 100px; }
+  .proje4-area .section-title .title {
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 55px;
+    color: #121212; }
+    @media (max-width: 767px) {
+      .proje4-area .section-title .title {
+        font-size: 22px;
+        line-height: 32px; } }
+    @media only screen and (min-width: 576px) and (max-width: 767px) {
+      .proje4-area .section-title .title {
+        font-size: 28px;
+        line-height: 38px; } }
+  .proje4-area .section-title .text {
+	text-align: justify;
+	text-indent: 30px;
+	width: 100%;
+    font-size: 20px;
+    line-height: 25px;
+    color: #121212;
+    margin-top: 8px; }
+    @media (max-width: 767px) {
+      .proje4-area .section-title .text {
+        font-size: 16px; } }
+
+.single-proje4 .proje4-icon img {
+  width: 120px; }
+  @media (max-width: 767px) {
+    .single-proje4 .proje4-icon img {
+      width: 100px; } }
+.single-proje4 .proje4-content {
+  padding-left: 30px; }
+  @media (max-width: 767px) {
+    .single-proje4 .proje4-content {
+      padding-left: 0;
+      padding-top: 30px; } }
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .single-proje4 .proje4-content {
+      padding-left: 30px;
+      padding-top: 0; } }
+  .single-proje4 .proje4-content .proje4-title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    color: #121212; }
+  .single-proje4 .proje4-content .text {
+    font-size: 16px;
+    color: #121212;
+    margin-top: 16px; }
+/*====final projeto 4====*/
+
 
 /*# sourceMappingURL=style.css.map */
 
